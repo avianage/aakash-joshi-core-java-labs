@@ -3,7 +3,7 @@ package com.aakash.lab8.ex2;
 import java.time.LocalTime;
 import java.time.format.DateTimeFormatter;
 
-public class TimerRunnable implements Runnable {
+public class TimeRunnable implements Runnable {
     @Override
     public void run() {
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("HH:mm:ss");

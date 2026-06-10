@@ -24,7 +24,7 @@ public class Lab6Ex1 {
 		map.put(3, 40);
 		map.put(4, 10);
 
-		List<Integer> result = MapValueSorter.getValues(map);
+		List<Integer> result = Lab6Ex1.getValues(map);
 
 		System.out.println(result);
 	}

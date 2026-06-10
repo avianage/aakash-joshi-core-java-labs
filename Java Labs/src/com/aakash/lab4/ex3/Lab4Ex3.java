@@ -30,7 +30,7 @@ public class Lab4Ex3 {
         
         JournalPaper paper = new JournalPaper(201, "Tech Trends", 2, "Alan Turing", 2023);
         paper.print();
-        
+       
         System.out.println();
         
         Video video = new Video(301, "The Matrix", 3, 136, "Wachowskis", "Sci-Fi", 1999);
