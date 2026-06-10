@@ -3,7 +3,7 @@ package com.aakash.lab6.ex3;
 import java.util.HashMap;
 import java.util.Map;
 
-public class SquareMap {
+public class Lab6Ex3 {
 
 	public static Map<Integer, Integer> getSquares(int[] arr) {
 
@@ -20,7 +20,7 @@ public class SquareMap {
 
 		int[] arr = { 2, 3, 4, 5 };
 
-		Map<Integer, Integer> result = SquareMap.getSquares(arr);
+		Map<Integer, Integer> result = Lab6Ex3.getSquares(arr);
 
 		System.out.println(result);
 	}

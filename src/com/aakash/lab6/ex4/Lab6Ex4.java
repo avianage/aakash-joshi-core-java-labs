@@ -3,7 +3,7 @@ package com.aakash.lab6.ex4;
 import java.util.HashMap;
 import java.util.Map;
 
-public class Medals {
+public class Lab6Ex4 {
 
 	public static HashMap<Integer, String> getStudents(HashMap<Integer, Integer> marksMap) {
 
@@ -36,7 +36,7 @@ public class Medals {
 		students.put(104, 65);
 		students.put(105, 97);
 
-		HashMap<Integer, String> medals = Medals.getStudents(students);
+		HashMap<Integer, String> medals = Lab6Ex4.getStudents(students);
 
 		System.out.println(medals);
 	}

@@ -1,12 +1,11 @@
 package com.aakash.lab6.ex1;
 
-
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.List;
 
-public class MapValueSorter {
+public class Lab6Ex1 {
 
 	public static List<Integer> getValues(HashMap<?, Integer> map) {
 		List<Integer> valuesList = new ArrayList<>(map.values());

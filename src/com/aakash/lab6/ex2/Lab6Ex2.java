@@ -3,7 +3,7 @@ package com.aakash.lab6.ex2;
 import java.util.HashMap;
 import java.util.Map;
 
-public class CharacterCounter {
+public class Lab6Ex2 {
 
 	public static Map<Character, Integer> countChars(char[] arr) {
 
@@ -24,7 +24,7 @@ public class CharacterCounter {
 
 		char[] arr = { 'a', 'b', 'a', 'c', 'b', 'a' };
 
-		Map<Character, Integer> result = CharacterCounter.countChars(arr);
+		Map<Character, Integer> result = Lab6Ex2.countChars(arr);
 
 		System.out.println(result);
 	}

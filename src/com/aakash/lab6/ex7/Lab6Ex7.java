@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-public class ReverseSort {
+public class Lab6Ex7 {
 
 	public static int[] getSorted(int[] arr) {
 

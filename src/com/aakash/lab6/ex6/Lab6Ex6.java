@@ -7,7 +7,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class Voting {
+public class Lab6Ex6 {
 
 	public static List<Integer> votersList(Map<Integer, LocalDate> dobMap) {
 
@@ -38,7 +38,7 @@ public class Voting {
 		people.put(103, LocalDate.of(1995, 1, 20));
 		people.put(104, LocalDate.of(2008, 12, 5));
 
-		List<Integer> result = Voting.votersList(people);
+		List<Integer> result = Lab6Ex6.votersList(people);
 
 		System.out.println("Eligible Voters: " + result);
 	}

@@ -3,7 +3,7 @@ package com.aakash.lab6.ex5;
 import java.util.ArrayList;
 import java.util.Collections;
 
-public class SecondSmallest {
+public class Lab6Ex5 {
 
 	public static int getSecondSmallest(int[] arr) {
 
@@ -30,7 +30,7 @@ public class SecondSmallest {
 
 		int[] arr = { 5, 1, 3, 2 };
 
-		int result = SecondSmallest.getSecondSmallest(arr);
+		int result = Lab6Ex5.getSecondSmallest(arr);
 
 		System.out.println("Second smallest: " + result);
 	}
