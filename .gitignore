@@ -1,0 +1,15 @@
+# Compiled class files
+bin/
+*.class
+
+# Bob Shell notes and temporary files
+.bob/
+
+# IDE specific files
+.classpath
+.project
+.settings/
+
+# OS specific files
+.DS_Store
+Thumbs.db
